@@ -1,8 +1,8 @@
-function namesFun(firstName, lastName) {
+function fullNames(firstName, lastName) {
   return { firstName, lastName };
 }
 module.exports = {
-  namesFun,
+  fullNames,
 };
 
-// console.log(namesFun("orsouene", "elaouizeb"));
+// console.log(fullNames("orsouene", "elaouizeb"));
